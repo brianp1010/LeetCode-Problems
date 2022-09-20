@@ -9,12 +9,12 @@ class Solution {
         int key = nums[i];
         
         if(duplication.containsKey(key)){
-            duplication.put(nums[i], duplication.get(key) + 1);
+            duplication.put(key, duplication.get(key) + 1);
             foundDupe = true;
         }else{
         duplication.put(key, 1);}     
         }
         
-        return foundDupe;
+             return foundDupe;
     }
 }
