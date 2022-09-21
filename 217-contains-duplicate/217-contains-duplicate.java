@@ -9,7 +9,6 @@ class Solution {
         int key = nums[i];
         
         if(duplication.containsKey(key)){
-            duplication.put(key, duplication.get(key) + 1);
             foundDupe = true;
         }else{
         duplication.put(key, 1);}     
