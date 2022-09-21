@@ -11,7 +11,7 @@ class Solution {
         if(duplication.containsKey(key)){
             foundDupe = true;
         }else{
-        duplication.put(key, 1);}     
+        duplication.put(key, i);}     
         }
         
              return foundDupe;
